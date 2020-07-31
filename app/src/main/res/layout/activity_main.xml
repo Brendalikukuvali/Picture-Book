@@ -7,10 +7,9 @@
     tools:context=".MainActivity" >
 
     <ImageView
-        android:id="@+id/etMyBike"
+        android:id="@+id/etMotobike"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -19,14 +18,12 @@
         app:srcCompat="@drawable/motobike" />
 
     <EditText
-        android:id="@+id/etMyDreamBike"
+        android:id="@+id/etBike"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
         android:layout_marginTop="5dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginRight="45dp"
         android:layout_marginBottom="80dp"
         android:ems="10"
         android:hint="My dream bike"
@@ -34,36 +31,24 @@
         android:text="My  dream bike"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.525"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etMyBike" />
-
-    <Button
-        android:id="@+id/btnPrevious"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="3dp"
-        android:layout_marginBottom="8dp"
-        android:hint="Previous"
-        android:text="Previous"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etMyDreamBike" />
+        app:layout_constraintTop_toBottomOf="@+id/etMotobike"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/btnNext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="225dp"
-        android:layout_marginLeft="225dp"
+        android:layout_marginStart="323dp"
+        android:layout_marginLeft="323dp"
         android:layout_marginTop="3dp"
         android:layout_marginBottom="8dp"
         android:hint="Next"
         android:text="Next"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/btnPrevious"
-        app:layout_constraintTop_toBottomOf="@+id/etMyDreamBike" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etBike" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
